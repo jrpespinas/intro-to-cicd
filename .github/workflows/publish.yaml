@@ -28,8 +28,9 @@ jobs:
         with:
           username: ${{ secrets.DOCKER_USER }}
           password: ${{ secrets.DOCKER_ACCESS_TOKEN }}
+
       - name: Build and push
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: user/app:latest
+          tags: ${{ secrets.DOCKER_USER }}/$IMAGE_NAME:$IMAGE_TAG
