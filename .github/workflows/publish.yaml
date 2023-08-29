@@ -11,7 +11,7 @@ jobs:
     name: Publish to Docker Hub
     runs-on: ubuntu-22.04
     env:
-      IMAGE_NAME: intro-to-CICD
+      IMAGE_NAME: intro-to-cicd
       IMAGE_TAG: 1
     steps:
       - name: checkout repository onto the runner
