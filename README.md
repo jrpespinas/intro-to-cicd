@@ -1,6 +1,6 @@
 Introduction to CI/CD
 ===
-Publish a simple FastAPI endpoint to Docker Hub using basic CI/CD workflow
+Publish a simple FastAPI endpoint to Docker Hub using basic CI/CD workflow.
 
 ## Testing & Linting
 Inspect the [`pre-build.yaml`](https://github.com/jrpespinas/intro-to-cicd/blob/main/.github/workflows/pre-build.yaml) which contains the jobs for testing the API and checking the source code formatting.
